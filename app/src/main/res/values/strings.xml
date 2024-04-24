@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">GestionInterim</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="select_job_target">Sélectionner le métier</string>
+    <string name="select_location">Sélectionner la localisation</string>
+    <string name="search">Rechercher</string>
+    <string name="my_offers_only">Mes annonces uniquement</string>
+    <string name="select_period">Sélectionner la période</string>
 </resources>
