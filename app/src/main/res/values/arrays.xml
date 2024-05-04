@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="location_options">Tous</string-array>
+    <string-array name="period_options">Tous</string-array>
+</resources>

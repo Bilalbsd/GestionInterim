@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "995693494700",
+    "project_id": "gestioninterim-36c07",
+    "storage_bucket": "gestioninterim-36c07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995693494700:android:adac6aa0d83e91c7e1ba09",
+        "android_client_info": {
+          "package_name": "com.example.gestioninterim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0rrcYkk8l5qBKF8luqOBW-g1Wr9MW7EY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
