@@ -14,7 +14,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.gestioninterim.R
 import com.example.gestioninterim.adapters.OffersAdapter
 import com.example.gestioninterim.models.OfferModel
-import com.example.gestioninterim.models.UserModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 
@@ -140,7 +139,6 @@ class SearchJobFragment : Fragment(), OffersAdapter.OnOfferClickListener {
             }
         })
     }
-
 
     private fun searchJob(jobTarget: String, location: String, period: String) {
         val query: Query = databaseReference.orderByChild("jobTarget").equalTo(jobTarget)

@@ -51,10 +51,10 @@ class OffersAdapter(
         val currentOffer = offersList[position]
         holder.jobTitleTextView.text = currentOffer.jobTitle
         holder.jobDescriptionTextView.text = currentOffer.jobDescription
-        holder.jobTargetTextView.text = currentOffer.jobTarget
-        holder.salaryTextView.text = currentOffer.salary.toString()
-        holder.periodTextView.text = currentOffer.period
-        holder.locationTextView.text = currentOffer.location
+        holder.jobTargetTextView.text = "Profil ciblé: " + currentOffer.jobTarget
+        holder.salaryTextView.text = "Salaire: " + currentOffer.salary.toString() + " par mois"
+        holder.periodTextView.text = "Période: " + currentOffer.period
+        holder.locationTextView.text = "Localisation : " + currentOffer.location
         //holder.latitudeTextView.text = currentOffer.latitude.toString()
         //holder.longitudeTextView.text = currentOffer.longitude.toString()
     }

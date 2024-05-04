@@ -6,4 +6,10 @@
     <string name="search">Rechercher</string>
     <string name="my_offers_only">Mes annonces uniquement</string>
     <string name="select_period">Sélectionner la période</string>
+
+    <color name="primaryColor">#2C3E46</color> <!-- Bleu-gris foncé -->
+    <color name="primaryDarkColor">#455A64</color> <!-- Gris foncé -->
+    <color name="accentColor">#FF7043</color> <!-- Orange doux -->
+
+
 </resources>

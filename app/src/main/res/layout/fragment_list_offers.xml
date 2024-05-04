@@ -3,9 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/offersTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Liste des Offres"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewOffers"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/offersTitleTextView"
+        android:layout_marginTop="8dp"
+        android:paddingTop="8dp" />
 
 </RelativeLayout>
