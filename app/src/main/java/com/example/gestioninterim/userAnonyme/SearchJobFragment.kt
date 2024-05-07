@@ -141,7 +141,7 @@ class SearchJobFragment : Fragment(), OffersAdapter.OnOfferClickListener {
     }
 
     private fun searchJob(jobTarget: String, location: String, period: String) {
-        val query: Query = databaseReference.orderByChild("jobTarget").equalTo(jobTarget)
+        val query: Query = databaseReference.orderByChild("jobTitle").equalTo(jobTarget)
         query.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 offersList.clear()
