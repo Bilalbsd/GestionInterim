@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre du poste"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobTitle"
+        android:hint="Description du poste"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/editTextJobTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobDescription"
+        android:hint="Cible du poste"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextJobTarget"
+        android:hint="Durée du poste"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPeriod"
+        android:hint="Salaire"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextSalary"
+        android:hint="Emplacement"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLocation"
+        android:hint="Latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLatitude"
+        android:hint="Longitude"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonAddOffer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLongitude"
+        android:text="Ajouter l'offre"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
