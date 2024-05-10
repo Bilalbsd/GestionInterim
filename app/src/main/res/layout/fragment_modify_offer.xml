@@ -1,0 +1,63 @@
+<!-- fragment_modify_offer.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextJobTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titre du poste" />
+
+    <EditText
+        android:id="@+id/editTextJobDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description du poste" />
+
+    <EditText
+        android:id="@+id/editTextJobTarget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cible du poste" />
+
+    <EditText
+        android:id="@+id/editTextPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Période du poste" />
+
+    <EditText
+        android:id="@+id/editTextSalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Salaire du poste" />
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emplacement du poste" />
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude" />
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude" />
+
+    <Button
+        android:id="@+id/updateOfferButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mettre à jour l'offre" />
+
+</LinearLayout>
